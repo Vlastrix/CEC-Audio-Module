@@ -1,0 +1,17 @@
+<!-- res/values/themes.xml -->
+<resources>
+
+    <style name="Theme.CEC.Splash" parent="Theme.SplashScreen">
+        <item name="windowSplashScreenBackground">@color/cec_bg</item>
+        <item name="windowSplashScreenAnimatedIcon">@drawable/ic_cec_splash</item>
+        <item name="windowSplashScreenIconBackgroundColor">@android:color/transparent</item>
+        <item name="postSplashScreenTheme">@style/Theme.CECAudioModule</item>
+    </style>
+
+    <style name="Theme.CECAudioModule" parent="Theme.Material3.DayNight.NoActionBar">
+        <item name="colorPrimary">@color/cec_accent</item>
+        <item name="android:statusBarColor">@color/cec_bg</item>
+        <item name="android:navigationBarColor">@color/cec_bg</item>
+    </style>
+
+</resources>
