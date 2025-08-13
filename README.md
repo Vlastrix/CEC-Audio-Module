@@ -33,7 +33,7 @@ Esta es la **versión 1.0**, enfocada en ofrecer una experiencia fluida con soni
 
 1. Clonar el repositorio:
    ```bash
-   git clone https://github.com/tuusuario/cec-audio-module.git
+   git clone https://github.com/Vlastrix/cec-audio-module.git
 
     Abrir el proyecto en Android Studio.
 
